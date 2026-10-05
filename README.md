@@ -35,8 +35,7 @@ Coverage is not exhaustive and depends on what publishers expose publicly.
 
 ## Screenshots
 
-I captured these screenshots from the running local demo using a **1440 × 900
-desktop landscape viewport**. They are unaltered captures, not design mockups.
+I captured these screenshots from the running local demo. They are unaltered captures, not design mockups.
 Open an image to view the full-resolution capture.
 
 | Event feed | Event details |
