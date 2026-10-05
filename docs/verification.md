@@ -1,6 +1,6 @@
 # Verification record
 
-Snapshot: October 4, 2026. Results refer to the private application implementation,
+Snapshot: October 4, 2026. Results refer to my private application implementation,
 not executable code in this documentation-only repository.
 
 ## Latest implementation checkpoint
@@ -12,8 +12,9 @@ not executable code in this documentation-only repository.
 | Frontend tests | 24 passed |
 | Frontend production build | TypeScript and Vite build passed |
 | Local API health during showcase capture | Reported healthy |
-| Existing city feed during capture | 209 upcoming records returned |
+| Existing city feed during desktop capture | 208 upcoming records displayed |
 | University of Waterloo feed during capture | 41 upcoming records returned |
+| Desktop screenshot gallery | 7 landscape captures from a 1440 × 900 browser viewport |
 
 In total, 369 backend cases were covered across the main run and isolated retry.
 This is not presented as a clean 369-pass single invocation, a coverage percentage,
@@ -28,17 +29,18 @@ or a guarantee of production behavior. No test logs or database dumps are publis
 - Thumbnail source selection and curated fallback assignment.
 - Frontend location preferences, event-location display, and dropdown behavior.
 
-Screenshots were captured from existing live-demo records. No new scraping run,
-AI spend, invented event, private-account access, or database reset was needed to
-produce them. The displayed listing counts are a point-in-time observation, not
+I captured screenshots using existing live-demo records. I did not need a new
+scraping run, AI spend, invented event, private-account access, or database reset
+to produce them. The displayed listing counts are a point-in-time observation, not
 a completeness benchmark.
 
 ## Reproducibility boundary
 
-The full application's private README documents Docker Compose startup and
-configuration. This showcase intentionally excludes source, environment files,
-container definitions, credentials, detailed fixtures, and runnable application
-packages. A recruiter can request a walkthrough through the owner's GitHub profile.
+My full application's private README documents Docker Compose startup and
+configuration. I intentionally exclude source, environment files, container
+definitions, credentials, detailed fixtures, and runnable application packages
+from this showcase. Recruiters can [contact me on GitHub](https://github.com/ArshaFazlollahi)
+to request a walkthrough.
 
 For a future production launch, provider integration tests, load tests, security
 review, accessibility review, and source-permission checks would supplement these

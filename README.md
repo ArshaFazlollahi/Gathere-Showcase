@@ -2,7 +2,7 @@
 
 ### Go find your kind of fun.
 
-A full-stack event-discovery demo that turns scattered public calendars,
+Gathere is my full-stack event-discovery demo. It turns scattered public calendars,
 event pages, and accessible social posts into a source-backed feed of plans.
 Events are discovered rather than dependent on user submissions, normalized into
 PostgreSQL, and enriched with AI for a concise, useful read.
@@ -10,8 +10,8 @@ PostgreSQL, and enriched with AI for a concise, useful read.
 **Python · FastAPI · React · TypeScript · PostgreSQL · Docker · SearXNG**
 
 This is a **portfolio showcase**, not the application source repository.
-The implementation is maintained privately. For a walkthrough or recruitment
-discussion, [contact the project owner on GitHub](https://github.com/ArshaFazlollahi).
+I maintain the implementation privately. For a walkthrough or recruitment
+discussion, [contact me on GitHub](https://github.com/ArshaFazlollahi).
 
 ![Gathere city discovery in dark mode](assets/screenshots/explore-cities-dark.jpg)
 
@@ -35,8 +35,9 @@ Coverage is not exhaustive and depends on what publishers expose publicly.
 
 ## Screenshots
 
-These are unaltered captures of the running local demo, not design mockups.
-They show the compact responsive layout available in the capture environment.
+I captured these screenshots from the running local demo using a **1440 × 900
+desktop landscape viewport**. They are unaltered captures, not design mockups.
+Open an image to view the full-resolution capture.
 
 | Event feed | Event details |
 | --- | --- |
@@ -54,7 +55,7 @@ See [capture notes and image credits](docs/screenshots.md).
 
 ## Engineering highlights
 
-The application separates public-source discovery, source verification, AI
+I separated public-source discovery, source verification, AI
 enrichment, relational persistence, and fast user-facing lookup. Verified facts
 are retained even when a model or search provider fails.
 
@@ -69,7 +70,7 @@ but topic-appropriate stock thumbnails when official images are unavailable.
 
 ## Verification snapshot
 
-At the latest implementation checkpoint, 369 backend tests were covered:
+At my latest implementation checkpoint, 369 backend tests were covered:
 368 passed in the main run, and one Windows-mounted SQLite setup failure passed
 on an isolated rerun. All 24 frontend tests passed, and the production frontend
 build passed. These are development checks, not a claim of complete test coverage
@@ -77,20 +78,20 @@ or production readiness. See the [verification notes](docs/verification.md).
 
 ## Demo scope and responsible discovery
 
-This is a local Docker Compose demo, not a publicly hosted service. The public
+I run this as a local Docker Compose demo, not a publicly hosted service. The public
 showcase cannot be used to run the application. Live discovery uses permitted
 public content; it does not bypass private accounts, logins, or anti-bot challenges.
 Public social coverage is limited by accessibility and indexing. Provider quotas,
 availability, and source layouts can change. Users should verify final event
 details with the organizer before travelling or buying tickets.
 
-The project was developed iteratively with AI-assisted tooling, with regression
-tests and manual checks used to assess the implementation. This showcase does not
-publish private source, credentials, database exports, logs, or extraction recipes.
+I developed the project iteratively with AI-assisted tooling, using regression
+tests and manual checks to assess the implementation. I do not publish private
+source, credentials, database exports, logs, or extraction recipes in this showcase.
 
 ## Rights
 
-Original showcase content is offered for portfolio evaluation under the
+I offer my original showcase content for portfolio evaluation under the
 [Gathere Showcase Evaluation License](LICENSE). This is not an open-source release
 and does not grant a general right to reuse the implementation or original assets.
 Third-party images, logos, and event information retain their respective rights.

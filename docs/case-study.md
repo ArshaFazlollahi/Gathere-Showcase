@@ -7,7 +7,7 @@ platforms, articles, and public social posts. A useful discovery interface needs
 more than search-result snippets: it needs specific activities, believable
 schedules, usable locations, clear summaries, and links back to evidence.
 
-Gathere explores that problem in a local full-stack demo. The initial coverage is
+I built Gathere to explore that problem in a local full-stack demo. The initial coverage is
 Ontario, with separate city and campus discovery experiences.
 
 ## Design decisions and lessons
@@ -70,6 +70,6 @@ layouts can change, image URLs can fail, and organizer details can be updated.
 Authentication, production monitoring, legal review of data usage, deployment
 hardening, and load testing would require additional work before a public launch.
 
-The application was developed with AI-assisted tooling and assessed through
-automated regression tests and manual source/UI checks. The [verification record](verification.md)
-states what was actually checked and its limitations.
+I developed the application with AI-assisted tooling and assessed it through
+automated regression tests and manual source/UI checks. My [verification record](verification.md)
+states what I checked and its limitations.

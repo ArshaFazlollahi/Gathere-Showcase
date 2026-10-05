@@ -1,6 +1,6 @@
 # High-level architecture
 
-This is a system overview, not an implementation guide or extraction recipe.
+This is an overview of my system, not an implementation guide or extraction recipe.
 
 ```mermaid
 flowchart LR
@@ -44,5 +44,5 @@ The thumbnail policy prefers a usable official image; otherwise it selects an
 appropriate illustrative photo from a curated catalog. Topic fit and distribution
 matter together, so variation does not come at the expense of relevance.
 
-Detailed queries, scoring weights, publisher adapters, schema implementation,
-credentials, and deployment configuration are intentionally not disclosed.
+I intentionally keep detailed queries, scoring weights, publisher adapters,
+schema implementation, credentials, and deployment configuration private.

@@ -1,9 +1,10 @@
 # Screenshot gallery and capture notes
 
-The JPEG files in `assets/screenshots/` were captured from the actual running local
-Gathere demo on October 4, 2026. They are not AI-generated, edited mockups, or
-evidence of a publicly hosted deployment. Captures use the browser's compact
-responsive viewport; other screen sizes use responsive layouts.
+I captured the JPEG files in `assets/screenshots/` from my running local Gathere
+demo on October 4, 2026, using a **1440 × 900 desktop landscape viewport**.
+They are not AI-generated, edited mockups, or evidence of a publicly hosted
+deployment. The application also adapts to smaller screens, but this gallery
+shows its standard desktop layout.
 
 | Capture | What it demonstrates |
 | --- | --- |
@@ -26,10 +27,10 @@ The city examples include Kitchener-Waterloo Oktoberfest, whose organizer link i
 [oktoberfest.ca](https://www.oktoberfest.ca/). The campus example uses publicly listed
 University of Waterloo events; the institution's site is
 [uwaterloo.ca](https://uwaterloo.ca/). Official images and names remain the property
-of their respective rights holders. No affiliation or endorsement is claimed.
+of their respective rights holders. I claim no affiliation or endorsement.
 
 General fallback photos used by the application come from
-[Unsplash](https://unsplash.com/) under their applicable terms. This repository does
-not distribute the raw curated-photo catalog or confer third-party reuse rights.
+[Unsplash](https://unsplash.com/) under their applicable terms. I do not distribute
+the raw curated-photo catalog or confer third-party reuse rights through this repository.
 
 See [NOTICE.md](../NOTICE.md) before reusing any visible third-party material.

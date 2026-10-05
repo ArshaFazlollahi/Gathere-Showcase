@@ -1,7 +1,7 @@
 # Third-party and publication notices
 
-Gathere's original branding, presentation, and documentation are identified by
-the [showcase license](LICENSE). That notice does not imply ownership of every
+My original Gathere branding, presentation, and documentation are identified by
+the [showcase license](LICENSE). I do not claim ownership of every
 element visible in an application screenshot.
 
 Event photography, organizer logos, names, and listing facts visible in captures
@@ -13,7 +13,7 @@ illustrative rather than a claim to depict the specific event.
 
 Technology names and trademarks belong to their owners. The application depends
 on separately licensed tools and libraries; no dependency source or binaries are
-distributed by this showcase. Application code is not included.
+distributed by this showcase. I do not include my application code.
 
 Do not extract and reuse third-party imagery based on this repository's license.
 Consult the original image or publisher's terms instead. This repository does
